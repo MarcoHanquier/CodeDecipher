@@ -1,0 +1,10 @@
+<h1><abbr title="The Vigenère cipher is a method of encrypting alphabetic text where each letter of the plaintext is encoded with a different Caesar cipher, whose increment is determined by the corresponding letter of another text, the key.">Vigenere</abbr></h1>
+
+<p>Text to Decrypt/Encrypt : </p>
+<textarea type="string" [(ngModel)]="baseText"></textarea>
+<div>
+    <p>Key : </p>
+    <textarea type="string" [(ngModel)]="baseKey"></textarea>
+</div>
+<p>Decrypted Text : {{decryptText()}}</p>
+<p>Encrypted Text : {{encryptText()}}</p>

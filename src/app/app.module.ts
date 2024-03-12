@@ -7,13 +7,15 @@ import { CaesarComponent } from './components/caesar/caesar.component';
 import { HomeComponent } from './components/home/home.component';
 import { FormsModule } from '@angular/forms';
 import { AtbashComponent } from './components/atbash/atbash.component';
+import { VigenereComponent } from './components/vigenere/vigenere.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CaesarComponent,
     HomeComponent,
-    AtbashComponent
+    AtbashComponent,
+    VigenereComponent
   ],
   imports: [
     BrowserModule,
